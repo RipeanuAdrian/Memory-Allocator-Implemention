@@ -1,2 +1,2 @@
 # Memory-Allocator-Implemention
-A minimalistic memory allocator in C for manual virtual memory management and implemented a reliable library for explicit memory allocation and initialization. 
+Developed a minimalistic memory allocator in C for manual virtual memory management and implemented a reliable library for explicit memory allocation and initialization. Utilized brk() and mmap() for efficient memory allocation based on chunk size. Implemented coalescing of free memory blocks for optimized memory usage. Ensured error-checking for system calls to maintain robustness.
